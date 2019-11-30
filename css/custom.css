@@ -1,0 +1,33 @@
+#mapid { 
+    height: 800px; 
+    width: 800px;
+}
+
+img {
+    width: 200px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    display: table;
+    margin: auto;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    display: table-row;
+    width: 900px;
+    border:0px;
+}
+
+.left {
+    width: 33.333%;
+    float: left;
+}
+
+.right {
+    width: 66.666%;
+    float: left;
+}

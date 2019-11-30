@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Cayuga Heights History Project</title>
+    <meta content='Maps for the Cayuga Heights History Project.' name='description'>
+    <meta content='Paul Anderson' name='author'>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+          integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+          crossorigin="">
+    </script>
+
+    <script>
+        var mapData
+        function getJsonCallback(data)
+        {
+            mapData = data
+        }
+        function keyVal(key, props)
+        {
+            result = ""
+            if (props[key])
+            {
+                result = "<br><b>" + key + ":</b>" + props[key]
+            }
+            return result
+        }
+        function locationHtml(props)
+        {
+            result = "<b>" + props["Address"] + "</b>"
+            if (props["Photo ::image"])
+            {
+                result += "<br><img src=\"" + props["Photo ::image"] + 
+                "\">"
+            }
+            result += keyVal("Date", props)
+            result += keyVal("Style", props)
+            result += keyVal("Architect", props)
+            result += keyVal("Builder", props)
+
+            if (props["Notes"])
+            {
+                result += "<p>" + props["Notes"] + "</p>"
+            }
+
+            console.log(result)
+            return result
+        }
+    </script>
+    <script src="data/mapdata.json"></script>
+
+    <link href='images/favicon.ico' rel='shortcut icon'>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/custom.css"/>
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="left">
+           ONE TWO THREE
+        </div>
+        <div class="right">
+          <div id="mapid"></div>
+        </div>          
+      </div>
+    </div>
+        <script>
+
+                var mymap = L.map('mapid').setView([42.4595, -76.4866], 15);
+            
+                L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                    maxZoom: 18,
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+                        '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+                        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    id: 'mapbox/streets-v11'
+                }).addTo(mymap);
+            
+            for (loc of mapData["locations"]) {
+                var marker = L.marker([loc["latitude"], loc["longitude"]]).addTo(mymap)
+                props = loc["properties"]
+                marker.bindPopup(locationHtml(props))
+            }
+        </script>
+  </body>
+</html>

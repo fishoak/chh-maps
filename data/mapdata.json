@@ -1,0 +1,464 @@
+getJsonCallback({
+  "global": {
+    "version": "3.1.160",
+    "generator": "MSheetsAO",
+    "language": "en",
+    "created": "2019-11-21T00:23:55.252Z",
+    "filename": "thexs-test-sheet.sheet1.0.json",
+    "uid": "bc263b15318748c313c1205bc343be1694e8a041d27611941837430aa92e5b84",
+    "sharing": "Share this .json file for View access with whom you want to view your map, then send them your map Url link"
+  },
+  "headers": [
+    "Address",
+    "Full Address",
+    "Name",
+    "Date",
+    "Architect",
+    "Builder",
+    "Style",
+    "Link",
+    "Notes",
+    "Photo ::image",
+    "Marker",
+    "Concatenation"
+  ],
+  "fields": {
+    "name": "Address",
+    "address": "Full Address",
+    "filter": "Style"
+  },
+  "groupBy": {
+    "title": "Style",
+    "list": [
+      {
+        "value": "Cape Cod",
+        "qty": 3,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Blue.svg"
+        },
+        "color": "Blue",
+        "tag": " (3)",
+        "checked": true
+      },
+      {
+        "value": "Cemetery",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Brown.svg"
+        },
+        "color": "Brown",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "Colonial",
+        "qty": 4,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Aqua.svg"
+        },
+        "color": "Aqua",
+        "tag": " (4)",
+        "checked": true
+      },
+      {
+        "value": "Contemporary",
+        "qty": 5,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Green.svg"
+        },
+        "color": "Green",
+        "tag": " (5)",
+        "checked": true
+      },
+      {
+        "value": "Craftsman",
+        "qty": 2,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Magenta.svg"
+        },
+        "color": "Magenta",
+        "tag": " (2)",
+        "checked": true
+      },
+      {
+        "value": "Inn/Lodge",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Orange.svg"
+        },
+        "color": "Orange",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "Ranch",
+        "qty": 3,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Purple.svg"
+        },
+        "color": "Purple",
+        "tag": " (3)",
+        "checked": true
+      },
+      {
+        "value": "Split Level",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Red.svg"
+        },
+        "color": "Red",
+        "tag": " (1)",
+        "checked": true
+      }
+    ]
+  },
+  "filters": [],
+  "html": {
+    "infowindow": "https://thexs-mapping.firebaseapp.com/xm-infowindow.html",
+    "listing": "https://thexs-mapping.firebaseapp.com/xm-listing.html"
+  },
+  "custom": {
+    "pageTitle": "Mapping by theXS",
+    "hideFilters": false,
+    "showPlace": false,
+    "placeRadius": 10,
+    "placeUnit": "km",
+    "placeFilter": false,
+    "filtersQty": 0,
+    "mapCenterOnClick": true,
+    "styledMap": "",
+    "markerCluster": true,
+    "markerClusterMinimumClusterSize": 5,
+    "markerClusterMaxZoom": 15,
+    "listingOpenInfowindow": true,
+    "listingExportNewTab": true,
+    "layers": {
+      "circles": {
+        "radiusUnit": "km",
+        "fillOpacity": 0.15
+      },
+      "heatmap": {
+        "fillOpacity": 0.6
+      }
+    },
+    "titleTemplate": "",
+    "listingTemplate": ""
+  },
+  "mapBoundsSwNe": {
+    "sw": {
+      "lat": 42.4557201,
+      "lng": -76.502585
+    },
+    "ne": {
+      "lat": 42.4753775,
+      "lng": -76.47734249999999
+    }
+  },
+  "locations": [
+    {
+      "latitude": 42.4557201,
+      "longitude": -76.49333589999999,
+      "properties": {
+        "Address": "Lake View Cemetery",
+        "Full Address": "42.456419, -76.493065",
+        "Name": "Lake View Cemetery",
+        "Date": "1864?",
+        "Style": "Cemetery",
+        "Notes": "Cemetery where interments include Cornell Family (mausoleum), Charles Blood and Jared Newman, developers of Cayuga Heights, Wyckoff Family (mausoleum), William Henry Miller and Sherwood Holt, architects, the Rothschild family (of Rothschild's Department Store on the Commons), Carl Sagan. (Public Sites)",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0BzXam-pMpzwMTUxtMTFtZnFBZTg&export=download",
+        "Concatenation": "Lake View Cemetery Lake View Cemetery 1864?   Cemetery Cemetery where interments include Cornell Family (mausoleum), Charles Blood and Jared Newman, developers of Cayuga Heights, Wyckoff Family (mausoleum), William Henry Miller and Sherwood Holt, architects, the Rothschild family (of Rothschild's Department Store on the Commons), Carl Sagan. (Public Sites)"
+      },
+      "id": 0,
+      "uid": 2
+    },
+    {
+      "latitude": 42.4639631,
+      "longitude": -76.4800082,
+      "properties": {
+        "Address": "1 Lowell Pl",
+        "Full Address": "1 Lowell Pl, Ithaca, NY 14850",
+        "Date": 1985,
+        "Builder": "Frank Hanshaw",
+        "Style": "Contemporary",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LSjkzX0p2ZFlWaEE&export=download",
+        "Concatenation": "1 Lowell Pl  1985  Frank Hanshaw Contemporary"
+      },
+      "id": 1,
+      "uid": 3
+    },
+    {
+      "latitude": 42.460836,
+      "longitude": -76.487034,
+      "properties": {
+        "Address": "1 Parkway Pl",
+        "Full Address": "1 Parkway Pl, Ithaca, NY 14850",
+        "Date": 1900,
+        "Architect": "Gibb and Waltz",
+        "Style": "Craftsman",
+        "Notes": "Designed by architects Gibb and Waltz, this home was originally the carriage house for developer Jared Newman's home at 9 Parkway Place. (Notable Architecture)",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_Lb1h1OG5QLW1Lcnc&export=download",
+        "Concatenation": "1 Parkway Pl  1900 Gibb and Waltz  Craftsman Designed by architects Gibb and Waltz, this home was originally the carriage house for developer Jared Newman's home at 9 Parkway Place. (Notable Architecture)"
+      },
+      "id": 2,
+      "uid": 4
+    },
+    {
+      "latitude": 42.4646238,
+      "longitude": -76.47734249999999,
+      "properties": {
+        "Address": "1 Pleasant Grove Lane",
+        "Full Address": "1 Pleasant Grove Lane, Ithaca, NY 14850",
+        "Date": 1981,
+        "Style": "Cape Cod",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0BzXam-pMpzwMT09TRnI2bEprWU0&export=download",
+        "Concatenation": "1 Pleasant Grove Lane  1981   Cape Cod"
+      },
+      "id": 3,
+      "uid": 5
+    },
+    {
+      "latitude": 42.464593,
+      "longitude": -76.4945,
+      "properties": {
+        "Address": "1 Strawberry Lane",
+        "Full Address": "1 Strawberry Lane, Ithaca, NY 14850",
+        "Date": 1933,
+        "Architect": "J. Lakin Baldridge",
+        "Style": "Colonial",
+        "Notes": "Home of the architect J. Lakin Baldridge; later home of local architect Carl Tallman. (Notable Architecture)",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LVXVPeDdaM1R2ODg&export=download",
+        "Concatenation": "1 Strawberry Lane  1933 J. Lakin Baldridge  Colonial Home of the architect J. Lakin Baldridge; later home of local architect Carl Tallman. (Notable Architecture)"
+      },
+      "id": 4,
+      "uid": 6
+    },
+    {
+      "latitude": 42.46808370000001,
+      "longitude": -76.482945,
+      "properties": {
+        "Address": "1 Triphammer Lane",
+        "Full Address": "1 Triphammer Lane, Ithaca, NY 14850",
+        "Date": 1954,
+        "Style": "Ranch",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LSHJNU3VoSWtpRFk&export=download",
+        "Concatenation": "1 Triphammer Lane  1954   Ranch"
+      },
+      "id": 5,
+      "uid": 7
+    },
+    {
+      "latitude": 42.47521100000001,
+      "longitude": -76.502585,
+      "properties": {
+        "Address": "1 Tyler Rd",
+        "Full Address": "1 Tyler Rd, Ithaca, NY 14850",
+        "Date": 1955,
+        "Style": "Contemporary",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LQVk3aU5BTmhtZ0k&export=download",
+        "Concatenation": "1 Tyler Rd  1955   Contemporary"
+      },
+      "id": 6,
+      "uid": 8
+    },
+    {
+      "latitude": 42.4741869,
+      "longitude": -76.4797823,
+      "properties": {
+        "Address": "1 Winthrop Pl",
+        "Full Address": "1 Winthrop Pl, Ithaca, NY 14850",
+        "Date": 1963,
+        "Style": "Ranch",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LUzdibFF0UGR3ZVU&export=download",
+        "Concatenation": "1 Winthrop Pl  1963   Ranch"
+      },
+      "id": 7,
+      "uid": 9
+    },
+    {
+      "latitude": 42.472509,
+      "longitude": -76.49292799999999,
+      "properties": {
+        "Address": "10 Highland Park Lane",
+        "Full Address": "10 Highland Park Lane, Ithaca, NY 14850",
+        "Date": 1953,
+        "Style": "Ranch",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LUlBFWlBWUk5zejg&export=download",
+        "Concatenation": "10 Highland Park Lane  1953   Ranch"
+      },
+      "id": 8,
+      "uid": 10
+    },
+    {
+      "latitude": 42.4653691,
+      "longitude": -76.4812055,
+      "properties": {
+        "Address": "10 Lowell Pl",
+        "Full Address": "10 Lowell Pl, Ithaca, NY 14850",
+        "Date": 1990,
+        "Builder": "Frank Hanshaw",
+        "Style": "Contemporary",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LX0p1YXhXYUIxeTA&export=download",
+        "Concatenation": "10 Lowell Pl  1990  Frank Hanshaw Contemporary"
+      },
+      "id": 9,
+      "uid": 11
+    },
+    {
+      "latitude": 42.4725682,
+      "longitude": -76.48262869999999,
+      "properties": {
+        "Address": "10 Spruce Lane",
+        "Full Address": "10 Spruce Lane, Ithaca, NY 14850",
+        "Date": 1984,
+        "Style": "Contemporary",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_Lc2dWX19NaUlZaDQ&export=download",
+        "Concatenation": "10 Spruce Lane  1984   Contemporary"
+      },
+      "id": 10,
+      "uid": 12
+    },
+    {
+      "latitude": 42.462264,
+      "longitude": -76.488525,
+      "properties": {
+        "Address": "100 Iroquois Rd",
+        "Full Address": "100 Iroquois Rd, Ithaca, NY 14850",
+        "Date": 1916,
+        "Style": "Craftsman",
+        "Notes": "Home of writer and Newbery Medal Award winner Ruth Durand Sawyer, 1922-45. (Major Award Winners, Writers, Notable Architecture, Village History, Notable Women)",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LTVVTa0lXNkZyY28&export=download",
+        "Concatenation": "100 Iroquois Rd  1916   Craftsman Home of writer and Newbery Medal Award winner Ruth Durand Sawyer, 1922-45. (Major Award Winners, Writers, Notable Architecture, Village History, Notable Women)"
+      },
+      "id": 11,
+      "uid": 13
+    },
+    {
+      "latitude": 42.4558451,
+      "longitude": -76.489552,
+      "properties": {
+        "Address": "100 Ridgewood Rd",
+        "Full Address": "100 Ridgewood Rd, Ithaca, NY 14850",
+        "Name": "\"The Castle,\" Beta Theta Pi",
+        "Date": 1917,
+        "Style": "Inn/Lodge",
+        "Notes": "(Public Sites, Fraternity, Notable Architecture)",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LazFTb01WRG9tMnc&export=download",
+        "Concatenation": "100 Ridgewood Rd \"The Castle,\" Beta Theta Pi 1917   Inn/Lodge (Public Sites, Fraternity, Notable Architecture)"
+      },
+      "id": 12,
+      "uid": 14
+    },
+    {
+      "latitude": 42.465266,
+      "longitude": -76.490912,
+      "properties": {
+        "Address": "100 West Upland Rd",
+        "Full Address": "100 West Upland Rd, Ithaca, NY 14850",
+        "Date": 1948,
+        "Builder": "Erma Cicchetti",
+        "Style": "Cape Cod",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LMG5ZRUNKbnhGQzQ&export=download",
+        "Concatenation": "100 West Upland Rd   1948  Erma Cicchetti Cape Cod"
+      },
+      "id": 13,
+      "uid": 15
+    },
+    {
+      "latitude": 42.4753775,
+      "longitude": -76.4812281,
+      "properties": {
+        "Address": "100 Winthrop Dr",
+        "Full Address": "100 Winthrop Dr, Ithaca, NY 14850",
+        "Date": 1960,
+        "Style": "Split Level",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LVjVvMU1mZHFxMXM&export=download",
+        "Concatenation": "100 Winthrop Dr  1960   Split Level"
+      },
+      "id": 14,
+      "uid": 16
+    },
+    {
+      "latitude": 42.4681721,
+      "longitude": -76.477704,
+      "properties": {
+        "Address": "1001 Hanshaw Rd",
+        "Full Address": "1001 Hanshaw Rd, Ithaca, NY 14850",
+        "Name": "Former Schoolhouse No. 6/School No. 22/The Kline Schoolhouse",
+        "Date": "c. 1850",
+        "Style": "Colonial",
+        "Link": "http://cayugaheightshistory.weebly.com/kline-schoolhouse.html",
+        "Notes": "Site of the first schoolhouse in Cayuga Heights, the original house was built in the early- to mid-1800s, on land from the Cradit farm family. Today, evidence of the house's original use can be seen in the two doors that flank the chimney--one entrance for girls; one for boys. The schoolhouse bell remains in the office, a reminder of schooldays past. (Village History, Notable Architecture)",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LV1huWmROd2RfUVU&export=download",
+        "Concatenation": "1001 Hanshaw Rd Former Schoolhouse No. 6/School No. 22/The Kline Schoolhouse c. 1850   Colonial Site of the first schoolhouse in Cayuga Heights, the original house was built in the early- to mid-1800s, on land from the Cradit farm family. Today, evidence of the house's original use can be seen in the two doors that flank the chimney--one entrance for girls; one for boys. The schoolhouse bell remains in the office, a reminder of schooldays past. (Village History, Notable Architecture)"
+      },
+      "id": 15,
+      "uid": 17
+    },
+    {
+      "latitude": 42.474598,
+      "longitude": -76.494123,
+      "properties": {
+        "Address": "1001 Highland Rd",
+        "Full Address": "1001 Highland Rd, Ithaca, NY 14850",
+        "Date": 1903,
+        "Style": "Colonial",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LcDItNzhTUVpLTW8&export=download",
+        "Concatenation": "1001 Highland Rd  1903   Colonial"
+      },
+      "id": 16,
+      "uid": 18
+    },
+    {
+      "latitude": 42.4667812,
+      "longitude": -76.483713,
+      "properties": {
+        "Address": "1001 Triphammer Rd",
+        "Full Address": "1001 Triphammer Rd, Ithaca, NY 14850",
+        "Date": 1942,
+        "Style": "Cape Cod",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LN0g3SWFvbE5GbkE&export=download",
+        "Concatenation": "1001 Triphammer Rd  1942   Cape Cod"
+      },
+      "id": 17,
+      "uid": 19
+    },
+    {
+      "latitude": 42.4689528,
+      "longitude": -76.4776136,
+      "properties": {
+        "Address": "1002 Hanshaw Rd",
+        "Full Address": "1002 Hanshaw Rd, Ithaca, NY 14850",
+        "Date": 1988,
+        "Style": "Contemporary",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LRmIxUVpSckwwdkE&export=download",
+        "Concatenation": "1002 Hanshaw Rd  1988   Contemporary"
+      },
+      "id": 18,
+      "uid": 20
+    },
+    {
+      "latitude": 42.4667438,
+      "longitude": -76.4843455,
+      "properties": {
+        "Address": "1002 Triphammer Rd",
+        "Full Address": "1002 Triphammer Rd, Ithaca, NY 14850",
+        "Date": 1940,
+        "Style": "Colonial",
+        "Photo ::image": "http://docs.google.com/uc?authuser=0&id=0B4mZNbHgzx_LS2JLQkNEeUI2N0k&export=download",
+        "Concatenation": "1002 Triphammer Rd  1940   Colonial"
+      },
+      "id": 19,
+      "uid": 21
+    }
+  ],
+  "layers": {
+    "circles": {
+      "radiusUnit": "km",
+      "fillOpacity": 0.15
+    },
+    "heatmap": {
+      "fillOpacity": 0.6
+    }
+  },
+  "extras": {}
+})
